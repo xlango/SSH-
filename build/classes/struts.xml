@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "struts-2.3.dtd">
+<struts>
+    <package name="demo1" extends="struts-default" namespace="/">   
+        <!-- spring和struts2整合 class中不写路径，否则对象会创建两次，整合jar不可缺少 -->  
+        <action name="userAction" class="userAction">
+        </action>
+    </package>
+
+</struts>
